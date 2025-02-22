@@ -202,17 +202,17 @@ check_status() {
 
 ## Banner
 banner() {
-	cat <<- EOF
-		${ORANGE}_____  _     _     _    __  __
-		${ORANGE}|  _ \| |__ (_)___| |__ \ \/ /
-		${ORANGE}| |_) | '_ \| / __| '_ \ \  / 
-		${ORANGE}|  __/| | | | \__ \ | | |/  \ 
-		${ORANGE}|_|   |_| |_|_|___/_| |_/_/\_\		${RED}Version : ${__version__}
+    cat <<- EOF
+        ${ORANGE}_____  _     _     _    __  __
+        ${ORANGE}|  _ \| |__ (_)___| |__ \ \/ /
+        ${ORANGE}| |_) | '_ \| / __| '_ \ \  / 
+        ${ORANGE}|  __/| | | | \__ \ | | |/  \ 
+        ${ORANGE}|_|   |_| |_|_|___/_| |_/_/\_\       ${RED}Version : ${__version__}
   
-        	${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Customized by briancgx (PhishX)${WHITE}
-        	${GREEN}[${WHITE}-${GREEN}]${CYAN} Original Project by htr-tech (tahmid.rayat)${WHITE}
-	EOF
-}	
+        ${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Customized by briancgx (PhishX)${WHITE}
+        ${GREEN}[${WHITE}-${GREEN}]${CYAN} Original Project by htr-tech (tahmid.rayat)${WHITE}
+EOF
+}
 
 ## Small Banner
 banner_small() {
